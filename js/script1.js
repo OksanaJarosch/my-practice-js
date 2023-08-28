@@ -63,7 +63,7 @@ const people1 = [{
   const falsePerson = [];
   
     arr.forEach(({name, know}) => {
-      if (know == ""){
+      if (know.length === 0){
         foundPerson.push(name);
       } else {
         falsePerson.push(know);
@@ -85,6 +85,8 @@ const people1 = [{
     }
   }
   
+
+
   
   findNarziss(people1);
   findNarziss(people2);
