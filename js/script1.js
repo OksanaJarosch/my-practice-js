@@ -74,15 +74,18 @@ const people1 = [{
   // console.log(falsePerson);
   
     if (foundPerson.length !== 1){
-      return console.log("not found");
+      console.log("not found")
+      return "not found";
     }
 
   const controle = falsePerson.every(pers => pers.includes(foundPerson[0]))
 
   if (controle){
-    return console.log("found");
+    console.log("found")
+    return "found";
   }
-  return console.log("not found");
+  console.log("not found")
+  return "not found";
     }
   
   
