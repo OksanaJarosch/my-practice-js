@@ -75,19 +75,19 @@ const people1 = [{
   
     if (foundPerson.length !== 1){
       return console.log("not found");
-    } else {
+    }
+
   const controle = falsePerson.every(pers => pers.includes(foundPerson[0]))
-  
+
   if (controle){
     return console.log("found");
   }
   return console.log("not found");
     }
-  }
+  
   
 
 
-  
   findNarziss(people1);
   findNarziss(people2);
   findNarziss(people3);
