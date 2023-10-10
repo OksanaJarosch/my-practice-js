@@ -1,0 +1,141 @@
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+li {
+    list-style: none;
+  }
+  
+ a {
+    text-decoration: none;
+  }
+
+h1,
+h2,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.shop-list-page{
+padding: 40px 20px;
+margin-left: auto;
+margin-right: auto;
+max-width: 375px;
+}
+
+.sidebar{
+    display: none;
+}
+
+.shop-list-titel{
+    color: #111;
+font-family: DM Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.19; /* 118.75% */
+letter-spacing: -1.28px;
+}
+
+.shop-list-titel > span {
+    color: #4F2EE8;
+}
+
+.shop-list-placeholder-text{
+    width: 244px;
+    margin-top: 120px;
+
+    color: rgba(0, 0, 0, 0.60);
+text-align: center;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.29; /* 128.571% */
+letter-spacing: -0.28px;
+}
+
+.shop-list-placeholder-img{
+    width: 265px;
+    height: 198px;
+}
+
+.shop-list-list{
+    margin-top: 40px;
+}
+
+.shop-list-item{
+    padding: 14px;
+
+width: 335px;
+
+    border-radius: 16px;
+border: 2px solid rgba(79, 46, 232, 0.40);
+background: #FFF;
+}
+
+.shop-list-link{
+    display: flex;
+    gap: 14px;
+}
+
+.book-cover{
+    width: 100px;
+height: 142px;
+background: #bebebe;
+}
+
+.book-name{
+    margin-bottom: 4px;
+
+    color: #111;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 112.5% */
+    letter-spacing: -0.64px;
+    text-transform: uppercase;
+}
+
+.book-category{
+    margin-bottom: 8px;
+
+    color: #B4AFAF;
+font-family: DM Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; /* 116.667% */
+letter-spacing: 0.36px;
+}
+
+.book-discription{
+width: 193px;
+height: 68px;
+margin-bottom: 16px;
+
+    overflow: hidden;
+color: #111;
+text-overflow: ellipsis;
+whitespace: nowrap;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+letter-spacing: -0.56px;
+}
+
+.book-author{
+    color: #B4AFAF;
+font-family: DM Sans;
+font-size: 12px;
+font-style: italic;
+font-weight: 400;
+line-height: 14px; /* 116.667% */
+letter-spacing: -0.48px;
+}
