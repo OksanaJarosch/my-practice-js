@@ -68,6 +68,9 @@ letter-spacing: -0.28px;
 }
 
 .shop-list-item{
+    position: relative;
+        display: flex;
+    gap: 14px;
     padding: 14px;
 
 width: 335px;
@@ -77,15 +80,12 @@ border: 2px solid rgba(79, 46, 232, 0.40);
 background: #FFF;
 }
 
-.shop-list-link{
-    display: flex;
-    gap: 14px;
-}
-
 .book-cover{
     width: 100px;
 height: 142px;
 background: #bebebe;
+border-radius: 8px;
+overflow: hidden;
 }
 
 .book-name{
@@ -138,4 +138,30 @@ font-style: italic;
 font-weight: 400;
 line-height: 14px; /* 116.667% */
 letter-spacing: -0.48px;
+}
+
+.link-container{
+position: absolute;
+right: 14px;
+bottom: 14px;
+
+display: flex;
+justify-content: center;
+align-items: flex-end;
+gap: 8px;
+width: 56px;
+}
+
+.delete-btn{
+    position: absolute;
+right: 14px;
+top: 14px;
+
+    width: 28px;
+height: 28px;
+/* fill: #4F2EE8; */
+border-radius: 50%;
+  border: none;
+background-color: #4F2EE8;
+
 }
