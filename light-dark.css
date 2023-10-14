@@ -1,0 +1,15 @@
+.test-container {
+  padding: 20px;
+  background-color: #c1c1c1;
+  height: 600px;
+}
+
+.test-titel {
+  color: #000000;
+}
+
+.dark-theme {
+  background-color: #000000;
+  background-image: url(./img/icon.svg);
+  color: beige;
+}
