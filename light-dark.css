@@ -16,6 +16,10 @@
 }
 
 /* ---------pagination----------- */
+.js-content-container {
+  margin-top: 100px;
+}
+
 .is-hidden {
   visibility: hidden;
   opacity: 0;
@@ -56,4 +60,8 @@
 .btn-one-forward,
 .btn-forward {
   background-color: #eac645;
+}
+
+button:disabled {
+  opacity: 0.5;
 }
