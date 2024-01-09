@@ -55,11 +55,19 @@
 .btn-activ {
   background-color: #111;
   color: #ffffff;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-one-forward,
 .btn-forward {
   background-color: #eac645;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 button:disabled {
