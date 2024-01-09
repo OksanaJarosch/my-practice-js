@@ -181,7 +181,7 @@ function onButtons(evt) {
   }
       
         //! Forward Btn
-    if (click === forwardBtn) {
+    if (click === forwardBtn || click.closest(".btn-forward")) {
       firstBtn.textContent = pages - 2;
       secondBtn.textContent = pages - 1;
       moreBtn.textContent = pages;
@@ -199,7 +199,7 @@ function onButtons(evt) {
 
 
         //! Back Btn
-    if (click === backBtn) {
+    if (click === backBtn || click.closest(".btn-back")) {
       firstBtn.textContent = 1;
       secondBtn.textContent = 2;
       moreBtn.textContent = 3;
@@ -216,7 +216,7 @@ function onButtons(evt) {
   } 
 
           //! One Forward Btn
-  if (click === oneForwardBtn) {
+  if (click === oneForwardBtn || click.closest(".btn-one-forward")) {
       moreBtn.textContent = +(moreBtn.textContent) + 1;
       firstBtn.textContent = +(moreBtn.textContent) - 2;
       secondBtn.textContent = +(moreBtn.textContent) - 1;
@@ -236,7 +236,7 @@ function onButtons(evt) {
   } 
 
         //! One Back Btn
-  if (click === oneBackBtn) {
+  if (click === oneBackBtn || click.closest(".btn-one-back")) {
     firstBtn.textContent = +(firstBtn.textContent) - 1;
     secondBtn.textContent = +(firstBtn.textContent) + 1;
     moreBtn.textContent = +(firstBtn.textContent) + 2;
