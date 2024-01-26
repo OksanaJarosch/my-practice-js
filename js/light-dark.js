@@ -38,7 +38,6 @@ const forwardBtn = document.querySelector(".btn-forward");
 
 
 let pages = Math.ceil(parsedLocalData.length / 4);
-console.log(pages);
 
 let currentPage = 1;
 
